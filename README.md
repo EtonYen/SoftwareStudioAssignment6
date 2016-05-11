@@ -8,12 +8,12 @@
 Explain your design in this section.  
 Example:
 ### Operation
-+ Clicking on the button "Add All": users can add all the characters into network to be analyzed.
-+ Clicking on the button "Clear": users can remove all the characters from network.
-+ Hovering on the character: the name of the character will be revealed.
-+ By dragging the little circle and drop it in the big circle, the character will be added to the network.
-+ By pressing key 1~7 on the keyboard, users can switch between episodes.
-+ ...etc.
++ Add All可以將所有的點跟線都加入到圓圈中。
++ 按下Clear則可以清除園中的點跟線，並將點還原回原來位置。
++ 移到點上會顯現名字。
++ 將點拖進圓中可以把點加入network。
++ 使用者可以輸入1~7來選擇哪一集。
++
 
 ### Visualization
 + The width of each link is visualized based on the value of the link.
