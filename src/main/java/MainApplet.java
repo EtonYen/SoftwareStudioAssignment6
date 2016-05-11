@@ -41,8 +41,8 @@ public class MainApplet extends PApplet{
 	Character character;
 	public void setup() {
 		cp5 = new ControlP5(this); 
-		cp5.addButton("buttonA") .setLabel("Button A") .setPosition(width-250, height-620) .setSize(200, 60); 
-		cp5.addButton("buttonB") .setLabel("Button B") .setPosition(width-250, height-540) .setSize(200, 60);
+		cp5.addButton("buttonA") .setLabel("Add All") .setPosition(width-250, height-620) .setSize(200, 60); 
+		cp5.addButton("buttonB") .setLabel("Clear All") .setPosition(width-250, height-540) .setSize(200, 60);
 		
 		size(width, height);
 		smooth();
@@ -105,6 +105,7 @@ public class MainApplet extends PApplet{
 		}
 		//rad2=30;
 	}
+	
 	public void keyPressed(){
 		if(key=='1'){
 			file = "main/resources/starwars-episode-1-interactions.json";
@@ -172,7 +173,7 @@ public class MainApplet extends PApplet{
 	public void mousePressed(){
 		if(flag2==0)
 		ani=Ani.to(this, (float)0.05,"rad2",40,Ani.LINEAR); 
-		if(mouseX>=850&&mouseX<=1050&&mouseY>=0&&mouseY<=60){
+		if(mouseX>=850&&mouseX<=1300&&mouseY>=20&&mouseY<=90){
 			int i=0;
 		    float q;
 			for(Character character:characters){
@@ -193,7 +194,7 @@ public class MainApplet extends PApplet{
 		}
 		
 
-			if(mouseX>=850&&mouseX<=1050&&mouseY>=80&&mouseY<=140){
+			if(mouseX>=850&&mouseX<=1300&&mouseY>=110&&mouseY<=160){
 			
 				for(Character character:circleCount){
 					character.x = aX[character.num];
