@@ -188,7 +188,7 @@ public class MainApplet extends PApplet{
 				ch.x = (int)(225*Math.sin(Math.toRadians(count2)))+600; //maybe wrong 
 				ch.y =  (int)(225*Math.cos(Math.toRadians(count2)))+325;
 				i++;
-				
+				ch.flag3=1;
 				}
 		}
 		
@@ -198,6 +198,7 @@ public class MainApplet extends PApplet{
 				for(Character character:circleCount){
 					character.x = aX[character.num];
 					character.y = aY[character.num];
+					character.flag3=0;
 				}
 				circleCount.clear();
 	
