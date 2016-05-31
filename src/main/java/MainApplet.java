@@ -17,7 +17,7 @@ import processing.data.JSONObject;
 public class MainApplet extends PApplet{
 	int a=1;
 	private String path = "main/resources/";
-	private String file = "main/resources/starwars-episode-"+a+"-interactions.json";
+	private String file = "resources/starwars-episode-"+a+"-interactions.json";
 	JSONObject data;
 	JSONArray nodes,links;
 	int flag=-1;

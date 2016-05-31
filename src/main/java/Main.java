@@ -26,5 +26,6 @@ public class Main extends JFrame{
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		window.setSize(windowWidth, windowHeight);
 		window.setVisible(true);
+	
 	}
 }
